@@ -1,0 +1,385 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
+
+/* Reset CSS (JANGAN DIHAPUS) */
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  margin-top: 62px;
+  padding: 180px 0 100px 0;
+  background-image: url(https://demo.hasthemes.com/wilson-preview/wilson/assets/img/slider/slider-startup.png);
+  background-position: right 10% bottom 30%;
+  background-color: #0d50aa;
+  background-origin: border-box;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  font-size: 14px;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+}
+
+.btn-wrapper {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  text-indent: 8%;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa,
+.fab {
+  margin-right: 5px;
+}
+
+header {
+  /* height: 65px; */
+  width: 100%;
+  background-color: #0d50aa;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  /* padding-top: 10px; */
+  /* margin-top: 20px; */
+}
+
+.header-left {
+  float: left;
+}
+
+.topnav {
+  /* float: right; */
+  background-color: #0d50aa;
+  overflow: hidden;
+}
+
+.topnav .nav-left {
+  float: left;
+}
+
+.topnav .nav-right {
+  float: right;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.topnav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.topnav a.active {
+  background-color: rgb(74, 114, 173);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.team-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f1f5f8;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(2, 2, 2);
+}
+
+.heading h2 {
+  font-weight: bold;
+  margin: 0 0 15px 0;
+  position: relative;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.heading h3 {
+  margin: 0 auto;
+  max-width: 740px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.team {
+  float: left;
+  width: 20%;
+}
+
+.team-icon img {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  border: 4px solid #b3aeb5;
+  border-radius: 4px;
+}
+
+.team-icon p {
+  position: relative;
+  width: 100%;
+  color: rgb(2, 2, 2);
+  margin: 0 0 0 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.text-contents {
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(2, 2, 2);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.heading-message {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #f1f5f8;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-image: url(https://demo.hasthemes.com/wilson-preview/wilson/assets/img/mission/mission-startup-bg.jpg);
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #3a4c94c2;
+  cursor: pointer;
+  box-shadow: 0 7px #053779;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 13px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #0d50aa;
+}
+
+/* contact form */
+.contact-form {
+  padding: 25px 0;
+  width: 100%;
+  background-color: #f1f5f8;
+}
+
+.form-heading {
+  color: #5f5d60;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-heading h2 {
+  margin-bottom: 20px;
+}
+
+.form-heading p {
+  font-size: 18px;
+  color: #5f5d60;
+}
+
+.form-heading hr {
+  margin-bottom: 50px;
+  border-top: 4px #5f5d60;
+}
+
+form label {
+  color: #5f5d60;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+form input,
+form textarea {
+  width: 50%;
+  border: 1px solid #dee7ec;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+  padding: 5px 10px;
+  flex-wrap: wrap;
+}
+
+.row-15 {
+  width: 15%;
+}
+
+.row-75 {
+  width: 75%;
+}
+
+.row-100 {
+  width: 52.5%;
+}
+
+.btn-send {
+  padding: 15px 55px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #053779;
+  color: #fff;
+  position: relative;
+
+  z-index: 1;
+}
+
+.btn-send::after {
+  content: "";
+  position: absolute;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255, 0.2);
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 200ms ease-in;
+}
+
+.btn-send:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
