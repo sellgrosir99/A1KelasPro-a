@@ -1,0 +1,181 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .team {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 30px;
+  }
+
+  /* .heading h2 {
+    font-size: 20px;
+  } */
+
+  form input,
+  form textarea {
+    width: 75%;
+  }
+
+  .form-heading h2 {
+    font-size: 22px;
+  }
+  .form-heading p {
+    font-size: 16px;
+  }
+  .row-15 {
+    width: 25%;
+  }
+
+  .row-75 {
+    width: 75%;
+  }
+
+  .row-100 {
+    width: 81.5%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .team {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    /* background-image: none; */
+    background-image: url(https://demo.hasthemes.com/wilson-preview/wilson/assets/img/slider/slider-startup.png);
+    background-position: top right;
+    text-align: left;
+    background-color: #0d50aa;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  .top-wrapper h1 {
+    font-size: 26px;
+    /* line-height: 25px; */
+    color: whitesmoke;
+    text-align: center;
+  }
+  .top-wrapper h1:nth-child(2) {
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper p {
+    display: none;
+  }
+
+  .contact-form {
+    width: left;
+  }
+
+  .contact-form h3 {
+    width: 18px;
+    line-height: 30px;
+  }
+
+  .contact-form p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .contact-form {
+    height: 100vh;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .form-heading {
+    text-align: center;
+  }
+
+  .form-heading h2 {
+    font-size: 22px;
+  }
+  .form-heading p {
+    font-size: 16px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-15 {
+    margin-bottom: 3px;
+    width: 100%;
+  }
+
+  .row-75 {
+    width: 100%;
+  }
+
+  .row-100 {
+    width: 100%;
+  }
+
+  .btn-send {
+    padding: 15px 45px;
+  }
+  /* 
+  .header-left .logo {
+    display: none;
+  } */
+
+  header,
+  .topnav {
+    background-color: rgb(39, 39, 39);
+  }
+
+  .topnav .nav-right a {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav .nav-left,
+  .topnav .nav-right {
+    float: none;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .topnav.responsive .nav-left a {
+    display: inline-block;
+  }
+}
